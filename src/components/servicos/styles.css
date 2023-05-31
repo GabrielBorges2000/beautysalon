@@ -5,12 +5,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 64px;
 
   background-color: var(--background);
 
   border-bottom: 1px solid transparent;
   border-image: linear-gradient(0.25turn, rgba(0, 0, 0, 0), var(--green));
   border-image-slice: 1;
+  
 }
 
 .title_service{
@@ -46,6 +48,7 @@
   justify-content: center;
   align-items: center;
 
+  border-radius: 10px;
   border-bottom: 4px solid var(--green);
 
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
@@ -63,6 +66,7 @@
 }
 
 .card p{
+  width: 256px;
   text-align: center;
   margin-top: 12px;
 }

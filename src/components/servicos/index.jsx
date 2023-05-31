@@ -1,7 +1,8 @@
 import './styles.css'
-import Image1 from '../../assets/img_service_1.svg'
-import Image2 from '../../assets/img_service_2.svg'
-import Image3 from '../../assets/img_service_3.svg'
+import Image1 from '../../assets/img_service_2.svg'
+import Image3 from '../../assets/img_service_1.svg'
+import Image2 from '../../assets/img_service_3.svg'
+
 
 export function Servicos() {
   return (
@@ -13,7 +14,7 @@ export function Servicos() {
       </div>
 
       <div className='cards'>
-        <div className='card'>
+        <div className='card' id='8'>
           <img src={Image1} alt="" />
           <h3>Terapia capilar</h3>
           <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
@@ -30,6 +31,8 @@ export function Servicos() {
           <h3>Tratamentos</h3>
           <p>O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
         </div>
+
+
 
       </div>
     </div>
