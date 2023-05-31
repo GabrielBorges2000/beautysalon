@@ -9,7 +9,10 @@
   align-items: center;  
   justify-content: space-evenly;
 
-  bacground-color: var(--background);
+  background-color: var(--background);
+
+  position: fixed;
+  z-index: 2;
 }
 
 span{

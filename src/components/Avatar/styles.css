@@ -1,0 +1,23 @@
+.avatar {
+  height: 32px;
+  width: 80%;
+
+  position: relative;
+  left: 0;
+  display: flex;
+
+  gap: 15px;
+}
+
+.avatar img{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px; 
+}
+
+.avatar p{
+
+}
+
+
+

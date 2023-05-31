@@ -3,7 +3,7 @@ import './styles.css'
 
 export function Inicio() {
   return (
-    <div className='container_inicio'>
+    <div className='container_inicio' id='inicio'>
 
       <div className='text'>
         <h2>Saúde natural para os seus cabelos</h2>

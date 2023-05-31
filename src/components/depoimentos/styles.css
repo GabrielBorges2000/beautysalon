@@ -1,0 +1,40 @@
+.container-depoiment{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(0.25turn, var(--green), rgba(0, 0, 0, 0));
+  border-image-slice: 1;
+}
+
+.container-depoiment h2{
+  width: 481px;
+  text-align: center;
+}
+
+.depoiments-cards{
+  display: grid;
+  grid-template-areas: "1 2";
+
+  gap: 50px;
+}
+
+.card-depoiment{
+  width: 544px;
+  height: 264px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-depoiment p{
+  width: 440px;
+
+}

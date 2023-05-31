@@ -3,23 +3,23 @@ import './styles.css'
 const nav = [
   {
     title: 'Início',
-    href: 'inicio'
+    href: '#inicio'
   },
   {
     title: 'Sobre',
-    href: 'sobre'
+    href: '#sobre'
   },
   {
     title: 'Serviços',
-    href: 'servico'
+    href: '#servico'
   },
   {
     title: 'Depoimentos',
-    href: 'depoimento'
+    href: '#depoimento'
   },
   {
     title: 'Contato',
-    href: 'contato'
+    href: '#contato'
   }
 ];
 
