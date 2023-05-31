@@ -9,6 +9,10 @@
 
   background-color: var(--background);
 
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(0, 0, 0, 0), var(--green));
+  border-image-slice: 1;
+
 }
 
 .text{
