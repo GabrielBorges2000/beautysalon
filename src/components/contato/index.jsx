@@ -11,7 +11,7 @@ const Contact = ({image, complement}) => {
 
 export function Contato() {
   return (
-    <div className='container_contat' id='contato'>
+    <div className='container_contat' id='contato' data-aos="fade-right">
       <div className='contact_one'>
         <h2>Entre em contato com a gente!</h2>
         <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>

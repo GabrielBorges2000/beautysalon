@@ -5,7 +5,7 @@ import Youtube from '../../assets/youtube.svg'
 
 export function Footer() {
   return (
-    <footer>
+    <footer >
       <div>
         <h1>beauty<span>salon</span>.</h1>
         <p>© 2021 Beautysalon.</p>

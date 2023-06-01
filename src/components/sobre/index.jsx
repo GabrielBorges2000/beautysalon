@@ -3,7 +3,7 @@ import './styles.css'
 
 export function Sobre() {
   return (
-    <div className="container_sobre" id='sobre'>
+    <div className="container_sobre" id='sobre' data-aos="fade-left">
 
       <img src={Image} alt="3 mulheres fazendo pose para tirar uma foto" />
 

@@ -1,6 +1,6 @@
 .container_inicio{
   width: 100%;
-  height: calc(100vh - 72px);
+  height: 100vh;
 
   display: grid;
   grid-template-areas: "div img";

@@ -6,7 +6,13 @@ import { Navbar } from "./components/navbar";
 import { Servicos } from "./components/servicos";
 import { Sobre } from "./components/sobre";
 
+import AOS from 'aos';
+
 export default function App() {
+  AOS.init({
+    delay: 500,
+    duration: 500
+  })
   return (
     <div>
       <Navbar />

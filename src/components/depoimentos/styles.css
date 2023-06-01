@@ -8,6 +8,8 @@
   border-bottom: 1px solid transparent;
   border-image: linear-gradient(0.25turn, var(--green), rgba(0, 0, 0, 0));
   border-image-slice: 1;
+
+  padding: 40px;
 }
 
 .container-depoiment h2{

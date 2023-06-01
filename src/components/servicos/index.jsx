@@ -3,10 +3,15 @@ import './styles.css'
 import Image1 from '../../assets/img_service_2.svg'
 import Image3 from '../../assets/img_service_1.svg'
 import Image2 from '../../assets/img_service_3.svg'
+import Aos from 'aos'
 
-const Card = ({image, title, text}) => {
+const Card = ({image, title, text, h, v}) => {
+  Aos.init({
+    delay: 900,
+    duration: 1500,
+  })
   return (
-    <div className='card' id='8'>
+    <div className='card' id='8' data-aos={`fade-${h}-${v}`} >
       <img src={image} alt="" />
       <h3>{title}</h3>
       <p>{text}</p>
@@ -16,7 +21,7 @@ const Card = ({image, title, text}) => {
 
 export function Servicos() {
   return (
-    <div className='container_servicos' id='servico'>
+    <div className='container_servicos' id='servico' data-aos="fade-right">
 
       <div className='title_service'>
         <h2>Serviços</h2>
@@ -25,11 +30,11 @@ export function Servicos() {
 
       <div className='cards'>
 
-        <Card image={Image1} title='Terapia capilar' text='Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.' />
+        <Card image={Image1} title='Terapia capilar' text='Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.' h={'down'} v={'right'}/>
 
-        <Card image={Image2} title='Cortes' text='A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.' />
+        <Card image={Image2} title='Cortes' text='A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.' h={'up'} v={'left'} />
 
-        <Card image={Image3} title='Tratamentos' text='O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.' />
+        <Card image={Image3} title='Tratamentos' text='O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.' h={'down'} v={'left'} />
 
       </div>
     </div>
